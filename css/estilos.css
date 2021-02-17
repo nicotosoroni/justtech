@@ -105,14 +105,32 @@ ul li a:hover {
   background: #125688;
   color: white; }
 
-/*Estilos para SECTION*/
+/*Estilos para SECTION usando BEM*/
 section {
   grid-area: section;
-  background-color: #818c7d;
+  background-color: #0f3057;
   margin: 10px; }
 
-section article {
-  background-color: #f2efea; }
+.section__article--background {
+  background-color: #8fbaf3; }
+
+.section__article--border {
+  border: solid 3px black; }
+
+.section__article--padding {
+  padding: 15px; }
+
+.section__article--margin {
+  margin: 15px; }
+
+.section__article--interlineado {
+  line-height: 2; }
+
+.section__h2--mayusculas {
+  text-transform: uppercase; }
+
+.section__h2--centrar {
+  text-align: center; }
 
 section a {
   text-decoration: none;
@@ -124,17 +142,8 @@ section a {
 .img_size2 {
   width: 50%; }
 
-.mayusculas {
-  text-transform: uppercase; }
-
-.interlineado {
-  line-height: 2; }
-
 .articulos {
   font-family: "Poppins", sans-serif; }
-
-.centrar {
-  text-align: center; }
 
 .espacioPalabra {
   word-spacing: 2px; }
@@ -143,15 +152,6 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: center; }
-
-.section__article--border {
-  border: solid 3px black; }
-
-.section__article--padding {
-  padding: 15px; }
-
-.section__article--margin {
-  margin: 15px; }
 
 .accordion-body {
   background-color: #e7e7de; }
