@@ -1,0 +1,246 @@
+h1 {
+  color: #0f3057; }
+
+h2 {
+  color: #0f3057;
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.17em; }
+
+p,
+i {
+  color: #033860; }
+
+body {
+  background-color: #8fbaf3; }
+
+.gridAreas {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 70% 30%;
+  height: 120px;
+  grid-template-areas: "header header" "section aside" "footer footer";
+  grid-gap: 10px 10px; }
+
+.item {
+  border: solid 1px black;
+  padding: 10px; }
+
+/*Estilos para HEADER*/
+header {
+  grid-area: header;
+  font-family: "Anton", sans-serif;
+  align-items: center; }
+
+.self {
+  display: flex;
+  justify-content: end; }
+
+.logo {
+  margin: 15px; }
+
+nav div p {
+  color: #f5f5f5; }
+
+/*formato del NavBar de Bootstrap*/
+.collapse {
+  background-color: #0f3057; }
+
+.navbar-nav {
+  background-color: #0f3057; }
+
+.navbar-toggler {
+  background-color: #00587a; }
+
+.navbar-toggler-icon {
+  background-color: #00587a; }
+
+.nav-link {
+  background-color: #0f3057;
+  color: #f5f5f5 !important;
+  margin: 15px;
+  font-size: 20px; }
+
+.active {
+  background-color: #0245a3; }
+
+.bg-light {
+  background-color: #0f3057 !important; }
+
+ul li a:hover {
+  background-color: #b8dff0; }
+
+/*Formatos para los botones de redes sociales*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+.fa-twitter {
+  background: #55acee;
+  color: white; }
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white; }
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  border-style: none;
+  border-radius: 0; }
+
+.fa-facebook {
+  background: #3b5998;
+  color: white; }
+
+.fa-instagram {
+  background: #125688;
+  color: white; }
+
+/*Estilos para SECTION*/
+section {
+  grid-area: section;
+  background-color: #818c7d;
+  margin: 10px; }
+
+section article {
+  background-color: #f2efea; }
+
+section a {
+  text-decoration: none;
+  color: #0f3057; }
+
+.img_size {
+  width: 100%; }
+
+.img_size2 {
+  width: 50%; }
+
+.mayusculas {
+  text-transform: uppercase; }
+
+.interlineado {
+  line-height: 2; }
+
+.articulos {
+  font-family: "Poppins", sans-serif; }
+
+.centrar {
+  text-align: center; }
+
+.espacioPalabra {
+  word-spacing: 2px; }
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.section__article--border {
+  border: solid 3px black; }
+
+.section__article--padding {
+  padding: 15px; }
+
+.section__article--margin {
+  margin: 15px; }
+
+.accordion-body {
+  background-color: #e7e7de; }
+
+/*Estilos para ASIDE*/
+aside {
+  grid-area: aside;
+  background-color: #06224a;
+  color: #f5f5f5;
+  border: solid 3px black;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Poppins", sans-serif; }
+
+aside h2 {
+  color: #e7e7de; }
+
+aside a {
+  text-decoration: none;
+  color: #f5f5f5; }
+
+.aside__background--animation:hover {
+  background: #eeeef5;
+  background: linear-gradient(90deg, #eeeef5 0%, #b8dff0 100%);
+  color: #3e4e88; }
+
+/*Estilos para FOOTER*/
+footer {
+  grid-area: footer;
+  background-color: #a9afa7; }
+
+footer div {
+  border: solid 1px black;
+  padding: 5px;
+  margin: 5px;
+  height: 50%;
+  width: 80%;
+  position: relative;
+  left: 125px;
+  background-color: #f2efea; }
+
+#footer1 {
+  border: solid 1px black;
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+  height: 50%;
+  position: relative;
+  left: 125px;
+  background-color: #f2efea; }
+
+.icon-40px {
+  font-size: 40px;
+  height: 80px;
+  width: 200px;
+  background-color: #00587a;
+  margin: 10px; }
+
+.icon-60px {
+  font-size: 60px;
+  height: 120px;
+  width: 300px;
+  background-color: #00587a;
+  margin: 10px; }
+
+.icon-80px {
+  font-size: 80px;
+  height: 160px;
+  width: 400px;
+  background-color: #00587a;
+  margin: 10px; }
+
+.swingHorizontal {
+  color: #1b202d; }
+
+.swingHorizontal:hover {
+  animation: swingHorizontal 1s ease;
+  animation-iteration-count: 1; }
+
+@keyframes swingHorizontal {
+  15% {
+    transform: translateX(5px); }
+  30% {
+    transform: translateX(-5px); }
+  50% {
+    transform: translateX(3px); }
+  65% {
+    transform: translateX(-3px); }
+  80% {
+    transform: translateX(2px); }
+  100% {
+    transform: translateX(0); } }
