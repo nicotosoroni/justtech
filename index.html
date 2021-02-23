@@ -4,7 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- CSS de Bootstrap-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+	
 	<!-- Hoja de estilos CSS -->
 	<link rel="stylesheet" href="css/estilos.css">
 	<!-- Fuente "Poppins" -->
@@ -65,11 +69,11 @@
 							
 							<li><a href="https://twitter.com/NicoTosoroni" class="fa fa-twitter" target="_blank"></a></li>
 							<li><a href="https://www.linkedin.com/in/nicolas-tosoroni-798708131/" class="fa fa-linkedin" target="_blank"></a></li>
-							<li><button type="button" class="fa fa-google btn btn-primary" data-bs-toggle="modal" data-bs-target="#cuentagoogle">
+							<li><button type="button" class="fa fa-google btn btn-primary" data-bs-toggle="modal" data-bs-target="#cuentagooglee">
 							</button>
 							</li>
 
-								<div class="modal" tabindex="-1" id=cuentagoogle>
+								<div class="modal" tabindex="-1" id=cuentagooglee>
 								<div class="modal-dialog">
 									<div class="modal-content">
 									<div class="modal-header">
@@ -99,6 +103,78 @@
 				</div>
 			</div>
 		</nav>
+
+<!-- BOOTSRAP 4.6 -->
+
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="pages/fsd.html">Full Stack Developer</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pages/programming.html">Programming</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pages/products.html">Products</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pages/contact.html">Contact</a>
+				</li>
+			  </ul>
+
+			  <div class="d-flex ms-auto">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">	
+					
+					<li><a href="https://twitter.com/NicoTosoroni" class="fa fa-twitter" target="_blank"></a></li>
+					<li><a href="https://www.linkedin.com/in/nicolas-tosoroni-798708131/" class="fa fa-linkedin" target="_blank"></a></li>
+					<li><button type="button" class="fa fa-google btn btn-primary" data-toggle="modal" data-target="#cuentagoogle">
+					</button>
+					</li>
+
+						<div class="modal" tabindex="-1" id=cuentagoogle>
+							<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title">Modal title</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+								<p>Modal body text goes here.</p>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+								</div>
+							</div>
+							</div>
+						</div>
+
+					<li><a href="https://www.facebook.com/profile.php?id=706198673" class="fa fa-facebook" target="_blank"></a></li>
+					<li><a href="https://www.instagram.com/nicotosoroni/" class="fa fa-instagram self" target="_blank"></a></li>
+				</ul>
+			</div>
+
+			  <!-- <form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			  </form> -->
+			</div>
+		  </nav>
+
+
+
+
 	</header>
 
 	<section class="item">
@@ -163,8 +239,14 @@
 		</div>
 	</footer>
 	
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> -->
+
 
 
 </body>
