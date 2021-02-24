@@ -262,27 +262,6 @@ footer div {
   background-color: #f2efea;
 }
 
-// $base-color: #036;
-
-// @for $i from 1 through 3 {
-//   ul:nth-child(3n + #{$i}) {
-//     background-color: lighten($base-color, $i * 5%);
-//   }
-// }
-
-// /// Divides `$value` by `$ratio` until it's below `$base`.
-// @function scale-below($value, $base, $ratio: 1.618) {
-//   @while $value > $base {
-//     $value: $value / $ratio;
-//   }
-//   @return $value;
-// }
-
-// $normal-font-size: 16px;
-// sup {
-//   font-size: scale-below(20px, 16px);
-// }
-
 $sizes: 40px, 60px, 80px;
 
 @each $size in $sizes {
@@ -294,11 +273,6 @@ $sizes: 40px, 60px, 80px;
     margin: 10px;
   }
 }
-
-// .cuadricula {
-//   display: flex;
-//   flex-direction: column;
-// }
 
 .swingHorizontal {
   color: hsl(222, 25%, 14%);
@@ -327,5 +301,36 @@ $sizes: 40px, 60px, 80px;
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+
+// Pagina FSD
+
+.fsd {
+  background-color: $azul01;
+}
+
+.osrdenHorizontal {
+  display: inline-block;
+}
+
+.ordenHorizontal li {
+  display: inline-block;
+}
+
+.ordenHorizontal img {
+  width: 100px;
+}
+
+.fsd {
+  margin: 25px 0px 10px 0px;
+}
+
+.fsd {
+  h2, h3{
+    background-color: $azul21;
+    color: $azul01; 
+    padding: 0.5em;
   }
 }
