@@ -353,15 +353,31 @@ $sizes: 40px, 60px, 80px;
 }
 
 .programadores{
+  display: flex;
     div {
      p {
        color: white;}
+       padding: 5px;
       }
 }
 
 
 .programadoresTitulo {
   color: white;
+}
+
+.redondear {
+  border-radius: 50%;
+}
+
+.text2{
+  p{
+  color: white;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  }
 }
 
 /*----------Pagina Products----------*/

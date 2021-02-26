@@ -273,11 +273,25 @@ footer div {
 .btn-link {
   color: #008891; }
 
-.programadores div p {
-  color: white; }
+.programadores {
+  display: flex; }
+  .programadores div {
+    padding: 5px; }
+    .programadores div p {
+      color: white; }
 
 .programadoresTitulo {
   color: white; }
+
+.redondear {
+  border-radius: 50%; }
+
+.text2 p {
+  color: white;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  text-align: center; }
 
 /*----------Pagina Products----------*/
 .container1 {
