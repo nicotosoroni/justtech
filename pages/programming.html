@@ -95,6 +95,27 @@
 	</header>
 
 	<section>
+		<div class="section__article--padding">
+			<h2 class="programadoresTitulo">Famosos Programadores</h2>
+		</div>
+		<div class="programadores">
+			<div>
+				<img src="../images/bootstrap.png" width="100px" alt="">
+			</div>
+			<div>
+				<p>Everybody should learn to program a computer, because it teaches you hoe to think</p>
+			</di			<div>
+				<img src="../images/bootstrap.png" width="100px" alt="">
+			</div>
+			<div>
+				<p>Learnign to write programs streach your mind, and helps you think better</p>
+			</di			<div>
+				<img src="../images/bootstrap.png" width="100px" alt="">
+			</div>
+			<div>
+				<p>I taught myself how to program computers when I was a kid, bought my first computer when I was 10, and sold my first commercial program when I was 12.</p>
+			</div>
+		</div>
 
 		<div class="accordion" id="accordionExample">
 			<div class="card">
@@ -142,146 +163,51 @@
 			</div>
 		  </div>
 
-		  <div class="accordion" id="accordionExample">
-			<div class="card">
-			  <div class="card-header" id="headingOne">
-				<h2 class="mb-0">
-				  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					Collapsible Group Item #1
-				  </button>
-				</h2>
-			  </div>
+
 		  
-			  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-				<div class="card-body">
-				  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
-				</div>
-			  </div>
+
+
+
+
+		  <ul class="nav nav-tabs" id="myTab" role="tablist">
+			<li class="nav-item" role="presentation">
+			  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#java" role="tab" aria-controls="home" aria-selected="true">JAVA</a>
+			</li>
+			<li class="nav-item" role="presentation">
+			  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#javascript" role="tab" aria-controls="profile" aria-selected="false">JAVASCRIPT</a>
+			</li>
+			<li class="nav-item" role="presentation">
+			  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#python" role="tab" aria-controls="contact" aria-selected="false">PYTHON</a>
+			</li>
+		  </ul>
+		  <div class="tab-content" id="myTabContent">
+			<div class="tab-pane fade show active" id="java" role="tabpanel" aria-labelledby="home-tab">
+				<h2>Java</h2>
+				<p><b>Java es el lenguaje de programación más usado del mundo</b>, según el índice TIOBE. Un puesto que ha mantenido durante varios años, aunque según los meses a veces lo intercambia con el lenguaje C.
+				<br><br>
+				Desarrollado en 1995 por Sun Microsystems, su principal punto fuerte es que <b>es muy versátil</b>. Puede usarse prácticamente para todo, desde aplicaciones webs a programas de ordenadores, apps de Android, juegos, etc. <b>Minecraft, por ejemplo, se ha creado en Java.</b>
+				<br><br>
+				<b>No hay que confundirlo con Javascript,</b> que es un lenguaje completamente diferente, también muy popular, y del que hablamos en otro apartado. </p>
 			</div>
-			<div class="card">
-			  <div class="card-header" id="headingTwo">
-				<h2 class="mb-0">
-				  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					Collapsible Group Item #2
-				  </button>
-				</h2>
-			  </div>
-			  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-				<div class="card-body">
-				  Some placeholder content for the second accordion panel. This panel is hidden by default.
-				</div>
-			  </div>
+			<div class="tab-pane fade" id="javascript" role="tabpanel" aria-labelledby="profile-tab">
+				<h2>Javascript</h2>
+				<p>Un error de novato es confundir Java con Javascript, pero no tienen nada que ver. Son lenguajes diferentes con propósitos distintos. Es cierto que <b>Javascript tiene cosas de Java y del lenguaje C</b>, pero no se usan igual.
+				<br><br>
+				<b>Javascript es el lenguaje más utilizado para escribir aplicaciones dentro de las páginas webs</b>. Funciona directamente en el navegador, así que lo único que necesita para usar Javascript es escribir el programa como un documento de texto, y abrirlo en el navegador como si fuese una página web. El navegador se encargará de ponerlo en marcha.
+				<br><br>
+				Java es sencillo de aprender, y muy demandado. Pero hay que tener en cuenta que solo sirve para crear herramientas y funciones dentro de una página web, y <b>para poder usarlo antes tendrás que conocer otros lenguajes con los que se crean las propias páginas web, como HTML y PHP</b>. O incluso AJAX, si o vas a usarlo a nivel servidor, y no solo como cliente (usuario de la web).
+				</p>
 			</div>
-			<div class="card">
-			  <div class="card-header" id="headingThree">
-				<h2 class="mb-0">
-				  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					Collapsible Group Item #3
-				  </button>
-				</h2>
-			  </div>
-			  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-				<div class="card-body">
-				  And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-				</div>
-			  </div>
+			<div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="contact-tab">
+				<h2>Python</h2>
+				<p>Un poco olvidado durante años, <b>el lenguaje Python ha vuelto con fuerza en los últimos tiempos</b> porque se ha descubierto que es perfecto para desarrollar una tecnología que prácticamente no existía cuando el programador holandés Guido van Rossum creó Python, en los años 80: <b>la inteligencia artificial.</b>
+				<br><br>
+				Python es un lenguaje muy amigable, porque van Rossum lo desarrolló con el único objetivo de que fuese sencillo de aprender . <b>Sus órdenes y comandos son palabras comunes en inglés</b>, así que su código (lista de órdenes que forman un programa) es fácil de leer.
+				</p>
 			</div>
 		  </div>
 
 
-		  <div class="accordion" id="accordionExample">
-			<div class="card">
-			  <div class="card-header" id="headingOne">
-				<h2 class="mb-0">
-				  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					Collapsible Group Item #1
-				  </button>
-				</h2>
-			  </div>
-		  
-			  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-				<div class="card-body">
-				  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
-				</div>
-			  </div>
-			</div>
-			<div class="card">
-			  <div class="card-header" id="headingTwo">
-				<h2 class="mb-0">
-				  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					Collapsible Group Item #2
-				  </button>
-				</h2>
-			  </div>
-			  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-				<div class="card-body">
-				  Some placeholder content for the second accordion panel. This panel is hidden by default.
-				</div>
-			  </div>
-			</div>
-			<div class="card">
-			  <div class="card-header" id="headingThree">
-				<h2 class="mb-0">
-				  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					Collapsible Group Item #3
-				  </button>
-				</h2>
-			  </div>
-			  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-				<div class="card-body">
-				  And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-				</div>
-			  </div>
-			</div>
-		  </div>
-
-
-
-		  <div class="accordion" id="accordionExample">
-			<div class="card">
-			  <div class="card-header" id="headingOne">
-				<h2 class="mb-0">
-				  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					Collapsible Group Item #1
-				  </button>
-				</h2>
-			  </div>
-		  
-			  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-				<div class="card-body">
-				  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
-				</div>
-			  </div>
-			</div>
-			<div class="card">
-			  <div class="card-header" id="headingTwo">
-				<h2 class="mb-0">
-				  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					Collapsible Group Item #2
-				  </button>
-				</h2>
-			  </div>
-			  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-				<div class="card-body">
-				  Some placeholder content for the second accordion panel. This panel is hidden by default.
-				</div>
-			  </div>
-			</div>
-			<div class="card">
-			  <div class="card-header" id="headingThree">
-				<h2 class="mb-0">
-				  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					Collapsible Group Item #3
-				  </button>
-				</h2>
-			  </div>
-			  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-				<div class="card-body">
-				  And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-				</div>
-			  </div>
-			</div>
-		  </div>
 
 
 
