@@ -296,6 +296,65 @@ footer{
   }
 }
 
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.flexStart{
+  justify-content: flex-start;
+  // align-content: flex-start;
+}
+
+
+// ---------------------
+
+
+.cajapadreA {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.contenedorA {
+	position: absolute;
+	top: 0px;
+	width: 100px;
+	height: 135px;
+	transition: top 0.5s ease-in-out 0s;
+}
+
+.contenedorsuperiorA {
+	width: 100px;
+	height: 100px;
+}
+
+.contenedorinferiorA {
+	width: 100px;
+	height: 35px;
+	padding-top: 5px;
+	background-color: rgba(200, 200, 200, 0.8);
+	text-align: center;
+}
+
+.contenedorinferiorB {
+	width: 100px;
+	height: 50px;
+	padding-top: 0px;
+	background-color: rgba(200, 200, 200, 0.8);
+	text-align: center;
+}
+
+.contenedorA:hover {
+	top: -50px;
+}
+
+
+//---------------------
+
+
+
+
 /*----------Pagina Programming----------*/
 
 .btn-link{
@@ -313,6 +372,9 @@ footer{
 
 .flex {
   display: flex;
+}
+
+.spaceAround{
   justify-content: space-around;
 }
 
@@ -326,6 +388,10 @@ footer{
 
 .textCenter{
   text-align: center;
+}
+
+.margintopbottom {
+  margin: 15px 0px 15px 0px;
 }
 
 .quotes {

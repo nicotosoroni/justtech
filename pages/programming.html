@@ -98,8 +98,8 @@
 		<div>
 			<h2 class="tituloBlanco">Programadores Famosos</h2>
 		</div>
-		<div class="flex flexCol text2 container-fluid">
-			<div class="row">
+		<div class="flex spaceAround flexCol text2 container-fluid margintopbottom">
+			<div class="row margintopbottom">
 				<div class="col-12 col-md-3 col-sm-12">
 					<img class="redondear" src="../images/steve.png" width="200px" alt="">
 				</div>
@@ -108,7 +108,7 @@
 					<p><strong>Steve Jobs</strong></p>
 				</div>	
 			</div>
-			<div class="row">
+			<div class="row margintopbottom">
 				<div class="col-12 col-md-3 col-sm-12">
 					<img class="redondear" src="../images/bill.png" width="200px" alt="">
 				</div>
@@ -117,7 +117,7 @@
 					<p><strong>Bill Gates</strong></p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row margintopbottom">
 				<div class="col-12 col-md-3 col-sm-12">
 					<img class="redondear" src="../images/elon.png" width="200px" alt="">
 				</div>
@@ -130,7 +130,7 @@
 		<div>
 			<h3 class="tituloBlanco">Otros programadores</h3>
 		</div>
-		<div class="flex flexRow section__article--padding text2">
+		<div class="flex spaceAround flexRow section__article--padding text2">
 			<div>
 				<img class="redondear" src="../images/gaben.png" width="100px" alt="">
 				<p class="textCenter section__article--padding white">GABEN <br>NEWELL</p>
@@ -161,8 +161,13 @@
 			  </div>
 		  
 			  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-				<div class="card-body">
-					<img src="../images/data-scientist.png" width="100px" alt="">
+				<div class="card-body flex spaceAround flexRow">
+					<div>	
+						<img src="../images/data-scientist.png" width="100px" alt="">
+					</div>
+					<div>
+						<p class="tituloBlanco">El <strong>Data Science</strong> es un campo interdisciplinario que involucra métodos científicos, procesos y sistemas para extraer conocimiento o un mejor entendimiento de datos en sus diferentes formas, ya sea estructurados o no estructurados,​ lo cual es una continuación de algunos campos de análisis de datos como la estadística, la minería de datos, el aprendizaje automático, y la analítica predictiva.</p>
+					</div>
 				</div>
 			  </div>
 			</div>
@@ -175,8 +180,13 @@
 				</h2>
 			  </div>
 			  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-				<div class="card-body">
-					<img src="../images/engineer.png" width="100px" alt="">
+				<div class="card-body flex spaceAround flexRow">
+					<div>
+						<img src="../images/engineer.png" width="100px" alt="">
+					</div>
+						<div>
+						<p class="tituloBlanco">Un <strong>Ingeniero de Software</strong> es un profesional que se encarga de la creación de software de calidad, aplicando conocimiento científico y estadístico. El trabajo del Ingeniero de Software consiste en analizar, diseñar, programar, probar y mantener sistemas informáticos y de software con el propósito de resolver problemas para los usuarios.</p>
+					</div>
 				</div>
 			  </div>
 			</div>
@@ -189,12 +199,16 @@
 				</h2>
 			  </div>
 			  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-				<div class="card-body">
-					<img src="../images/web-development.png" width="100px" alt="">
+				<div class="card-body flex spaceAround flexRow">
+					<div>
+						<img src="../images/web-development.png" width="100px" alt="">
+					</div>
+					<div>
+						<p class="tituloBlanco">Un <strong>Desarrollador Full Stack</strong> es un programador con un perfil técnico muy completo. Sabe manejarse tanto en el back end como en el front end. Conoce los diferentes sistemas operativos y los componentes que hay entre el back y el front end.</p>
+					</div>
+			  	</div>
 				</div>
-			  </div>
-			</div>
-		  </div>
+		  	</div>
 
 
 		<div class="section__article--padding">
@@ -217,28 +231,48 @@
 		  </ul>
 		  <div class="tab-content" id="myTabContent">
 			<div class="tab-pane fade show active" id="java" role="tabpanel" aria-labelledby="home-tab">
-				<h2>Java</h2>
-				<p><b>Java es el lenguaje de programación más usado del mundo</b>, según el índice TIOBE. Un puesto que ha mantenido durante varios años, aunque según los meses a veces lo intercambia con el lenguaje C.
-				<br><br>
-				Desarrollado en 1995 por Sun Microsystems, su principal punto fuerte es que <b>es muy versátil</b>. Puede usarse prácticamente para todo, desde aplicaciones webs a programas de ordenadores, apps de Android, juegos, etc. <b>Minecraft, por ejemplo, se ha creado en Java.</b>
-				<br><br>
-				<b>No hay que confundirlo con Javascript,</b> que es un lenguaje completamente diferente, también muy popular, y del que hablamos en otro apartado. </p>
+				<div class="flex spaceAround flexRow">
+					<div>	
+						<img src="../images/java.png" width="100px" alt="">
+					</div>
+					<div>
+						<h2 class="tituloBlanco">Java</h2>
+						<p class="tituloBlanco"><b>Java es el lenguaje de programación más usado del mundo</b>, según el índice TIOBE. Un puesto que ha mantenido durante varios años, aunque según los meses a veces lo intercambia con el lenguaje C.
+						<br><br>
+						Desarrollado en 1995 por Sun Microsystems, su principal punto fuerte es que <b>es muy versátil</b>. Puede usarse prácticamente para todo, desde aplicaciones webs a programas de ordenadores, apps de Android, juegos, etc. <b>Minecraft, por ejemplo, se ha creado en Java.</b>
+						<br><br>
+						<b>No hay que confundirlo con Javascript,</b> que es un lenguaje completamente diferente, también muy popular, y del que hablamos en otro apartado. </p>
+					</div>	
+				</div>			
 			</div>
 			<div class="tab-pane fade" id="javascript" role="tabpanel" aria-labelledby="profile-tab">
-				<h2>Javascript</h2>
-				<p>Un error de novato es confundir Java con Javascript, pero no tienen nada que ver. Son lenguajes diferentes con propósitos distintos. Es cierto que <b>Javascript tiene cosas de Java y del lenguaje C</b>, pero no se usan igual.
-				<br><br>
-				<b>Javascript es el lenguaje más utilizado para escribir aplicaciones dentro de las páginas webs</b>. Funciona directamente en el navegador, así que lo único que necesita para usar Javascript es escribir el programa como un documento de texto, y abrirlo en el navegador como si fuese una página web. El navegador se encargará de ponerlo en marcha.
-				<br><br>
-				Java es sencillo de aprender, y muy demandado. Pero hay que tener en cuenta que solo sirve para crear herramientas y funciones dentro de una página web, y <b>para poder usarlo antes tendrás que conocer otros lenguajes con los que se crean las propias páginas web, como HTML y PHP</b>. O incluso AJAX, si o vas a usarlo a nivel servidor, y no solo como cliente (usuario de la web).
-				</p>
+				<div class="flex spaceAround flexRow">
+					<div>	
+						<img src="../images/javascript.png" width="100px" alt="">
+					</div>
+					<div>
+						<h2 class="tituloBlanco">Javascript</h2>
+						<p class="tituloBlanco">Un error de novato es confundir Java con Javascript, pero no tienen nada que ver. Son lenguajes diferentes con propósitos distintos. Es cierto que <b>Javascript tiene cosas de Java y del lenguaje C</b>, pero no se usan igual.
+						<br><br>
+						<b>Javascript es el lenguaje más utilizado para escribir aplicaciones dentro de las páginas webs</b>. Funciona directamente en el navegador, así que lo único que necesita para usar Javascript es escribir el programa como un documento de texto, y abrirlo en el navegador como si fuese una página web. El navegador se encargará de ponerlo en marcha.
+						<br><br>
+						Java es sencillo de aprender, y muy demandado. Pero hay que tener en cuenta que solo sirve para crear herramientas y funciones dentro de una página web, y <b>para poder usarlo antes tendrás que conocer otros lenguajes con los que se crean las propias páginas web, como HTML y PHP</b>. O incluso AJAX, si o vas a usarlo a nivel servidor, y no solo como cliente (usuario de la web).
+						</p>
+					</div>
+				</div>
 			</div>
 			<div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="contact-tab">
-				<h2>Python</h2>
-				<p>Un poco olvidado durante años, <b>el lenguaje Python ha vuelto con fuerza en los últimos tiempos</b> porque se ha descubierto que es perfecto para desarrollar una tecnología que prácticamente no existía cuando el programador holandés Guido van Rossum creó Python, en los años 80: <b>la inteligencia artificial.</b>
-				<br><br>
-				Python es un lenguaje muy amigable, porque van Rossum lo desarrolló con el único objetivo de que fuese sencillo de aprender . <b>Sus órdenes y comandos son palabras comunes en inglés</b>, así que su código (lista de órdenes que forman un programa) es fácil de leer.
-				</p>
+				<div class="flex flexRow spaceAround">
+					<div>	
+						<img src="../images/python.png" width="100px" alt="">
+					</div>
+					<div>
+						<h2 class="tituloBlanco">Python</h2>
+						<p class="tituloBlanco">Un poco olvidado durante años, <b>el lenguaje Python ha vuelto con fuerza en los últimos tiempos</b> porque se ha descubierto que es perfecto para desarrollar una tecnología que prácticamente no existía cuando el programador holandés Guido van Rossum creó Python, en los años 80: <b>la inteligencia artificial.</b>
+						<br><br>
+						Python es un lenguaje muy amigable, porque van Rossum lo desarrolló con el único objetivo de que fuese sencillo de aprender . <b>Sus órdenes y comandos son palabras comunes en inglés</b>, así que su código (lista de órdenes que forman un programa) es fácil de leer.
+						</p>
+					</div>
 			</div>
 		  </div>
 
