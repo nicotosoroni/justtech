@@ -27,7 +27,7 @@ body {
   background-color: $azul23;
 }
 
-.gridAreas {
+.gridAreass {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 70% 30%;
@@ -41,7 +41,7 @@ body {
 
 .borderAndPadding {
   border: solid 1px black;
-  padding: 10px;
+  padding: 5px;
 }
 
 /*----------Estilos para HEADER----------*/
@@ -155,7 +155,7 @@ ul li a:hover {
 section {
   grid-area: section;
   background-color: $azul05;
-  margin: 10px;
+  margin: 0px;
 }
 
 .section__article--background {
@@ -167,11 +167,11 @@ section {
 }
 
 .section__article--padding {
-  padding: 15px;
+  padding: 5px;
 }
 
 .section__article--margin {
-  margin: 15px;
+  margin: 0px;
 }
 
 .section__article--interlineado {
@@ -221,8 +221,8 @@ aside {
   background-color: $azul05;
   color: $azul01;
   border: solid 3px black;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 0px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -263,51 +263,6 @@ footer{
 .footerNav {
   display: block;
   padding: .5rem 1rem;
-}
-
-/*----------Estilos otros----------*/
-
-
-$sizes: 40px, 60px, 80px;
-
-@each $size in $sizes {
-  .icon-#{$size} {
-    font-size: $size;
-    height: $size * 2;
-    width: $size * 5;
-    background-color: $azul04;
-    margin: 10px;
-  }
-}
-
-.swingHorizontal {
-  color: hsl(222, 25%, 14%);
-}
-
-.swingHorizontal:hover {
-  animation: swingHorizontal 1s ease;
-  animation-iteration-count: 1;
-}
-
-@keyframes swingHorizontal {
-  15% {
-    transform: translateX(5px);
-  }
-  30% {
-    transform: translateX(-5px);
-  }
-  50% {
-    transform: translateX(3px);
-  }
-  65% {
-    transform: translateX(-3px);
-  }
-  80% {
-    transform: translateX(2px);
-  }
-  100% {
-    transform: translateX(0);
-  }
 }
 
 
@@ -390,8 +345,9 @@ $sizes: 40px, 60px, 80px;
   padding: 10px;
 }
 
-.programadoresTitulo {
+.tituloBlanco {
   color: white;
+  margin: 20px;
 }
 
 .redondear {
@@ -426,10 +382,9 @@ $sizes: 40px, 60px, 80px;
 /*----------Pagina Products----------*/
 
 
-
 .container1 {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .image {
@@ -457,7 +412,7 @@ $sizes: 40px, 60px, 80px;
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 70px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -467,6 +422,10 @@ $sizes: 40px, 60px, 80px;
   text-align: center;
 }
 
+.linkCompra {
+  text-decoration: none;
+  font-family: "Anton", sans-serif;
+}
 
 /*----------Pagina Contacto----------*/
 

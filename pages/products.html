@@ -94,8 +94,13 @@
 		  </nav>
 	</header>
 	
-	<section>
+	<section class="section__article--padding">
 
+		<!---------------Carousel--------------->
+
+		<div>
+			<h2 class="tituloBlanco">Productos más vendidos</h2>
+		</div>
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -128,27 +133,110 @@
 			</a>
 		  </div>
 
+		<!---------------Cards--------------->
 
-
-
-
-		<div class="cuadricula">	
-			<div class="icon-80px swingHorizontal">Producto1</div>
-			<div class="icon-80px swingHorizontal">Producto2</div>
-			<div class="icon-60px swingHorizontal">Producto3</div>
-			<div class="icon-60px swingHorizontal">Producto4</div>
-			<div class="icon-40px swingHorizontal">Producto5</div>
-			<div class="icon-40px swingHorizontal">Producto6</div>
+		<div>
+			<h2 class="tituloBlanco">Productos</h2>
 		</div>
 
 
-
-		<div class="container1">
-			<img src="../images/img_avatar.png" alt="Avatar" class="image">
-			<div class="overlay">
-			  <div class="text">Hello World</div>
+		<div class="row row-cols-1 row-cols-md-3">
+			<div class="col mb-4">
+			  <div class="card h-100 container1">
+				<img src="../images/mouse1.png" class="card-img-top" alt="...">
+				<div class="overlay">
+					<div class="text"><a href=""class="linkCompra">COMPRAR</a></div>
+				</div>	
+				<div class="card-body">
+				  <h5 class="card-title">Razer Viper 8KHz</h5>
+				    <ul>
+						<li>Razer™ 8000Hz HyperPolling Technology</li>
+						<li>Razer™ Focus+ 20K DPI Optical Sensor</li>
+					  	<li>2nd-gen Razer™ Optical Mouse Switch</li>
+					</ul>
+				  </div>
+			  </div>
 			</div>
+			<div class="col mb-4">
+			  <div class="card h-100 container1">
+				<img src="../images/mouse2.png" class="card-img-top" alt="...">
+				<div class="overlay">
+					<div class="text"><a href=""class="linkCompra">COMPRAR</a></div>
+				</div>	
+				<div class="card-body">
+				  <h5 class="card-title">Razer Naga X</h5>
+				  <p class="card-text">
+					16 programmable buttons <br>
+					85g midweight ergonomic design <br>
+					2nd-gen Razer™ Optical Mouse Switch</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col mb-4">
+			  <div class="card h-100 container1">
+				<img src="../images/keyboard1.png" class="card-img-top" alt="...">
+				<div class="overlay">
+					<div class="text"><a href=""class="linkCompra">COMPRAR</a></div>
+				</div>	
+				<div class="card-body">
+				  <h5 class="card-title">Razer Huntsman V2 Analog - US</h5>
+				  <p class="card-text">
+					Razer™ Analog Optical Switches <br>
+					Doubleshot PBT keycaps <br>
+					Powered by Razer Chroma™ RGB</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col mb-4">
+			  <div class="card h-100 container1">
+				<img src="../images/keyboard2.png" class="card-img-top" alt="...">
+				<div class="overlay">
+					<div class="text"><a href=""class="linkCompra">COMPRAR</a></div>
+				</div>	
+				<div class="card-body">
+				  <h5 class="card-title">Razer BlackWidow V3 Tenkeyless - Green Switch - US</h5>
+				  <p class="card-text">
+					Razer Mechanical Switches (Green) <br>
+					Tenkeyless form factor <br>
+					Razer Chroma RGB Backlighting
+				  </p>
+				</div>
+			  </div>
+			</div>
+			<div class="col mb-4">
+				<div class="card h-100 container1">
+					<img src="../images/headphones.png" class="card-img-top" alt="...">
+					<div class="overlay">
+						<div class="text"><a href=""class="linkCompra">COMPRAR</a></div>
+					</div>	
+					<div class="card-body">
+					<h5 class="card-title">Razer Kaira Pro for Xbox</h5>
+					<p class="card-text">
+						Razer™ TriForce Titanium 50mm Drivers <br>
+						Razer™ HyperClear Supercardioid Mic <br>
+						Xbox Wireless and Bluetooth 5.0
+					</p>
+					</div>
+				</div>
+			  </div>
+			  <div class="col mb-4">
+				<div class="card h-100 container1">
+				  <img src="../images/backpack.png" class="card-img-top" alt="...">
+				  <div class="overlay">
+					<div class="text"><a href="" class="linkCompra">COMPRAR</a></div>
+				</div>	
+				  <div class="card-body">
+					<h5 class="card-title">Razer Recon 15” Rolltop Backpack</h5>
+					<p class="card-text">
+						Roll-top design with zipper opening <br>
+						Water and abrasion-resistant build <br>
+						Dedicated slot for laptops up to 15”
+					</p>
+				  </div>
+				</div>
+			  </div>
 		  </div>
+
 
 
 	</section>
@@ -157,19 +245,19 @@
 		<div>
 			<ul>
 				<li>
-				<a class="footerNav" href="index.html">Home</a>
+				<a class="footerNav" href="../index.html">Home</a>
 				</li>
 				<li>
-				<a class="footerNav" href="pages/fsd.html">Full Stack Developer</a>
+				<a class="footerNav" href="fsd.html">Full Stack Developer</a>
 				</li>
 				<li>
-					<a class="footerNav" href="pages/programming.html">Programming</a>
+					<a class="footerNav" href="programming.html">Programming</a>
 				</li>
 				<li>
-					<a class="footerNav" href="pages/products.html">Products</a>
+					<a class="footerNav" href="products.html">Products</a>
 				</li>
 				<li>
-					<a class="footerNav" href="pages/contact.html">Contact</a>
+					<a class="footerNav" href="contact.html">Contact</a>
 				</li>
 			</ul>
 		</div>

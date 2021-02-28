@@ -20,7 +20,7 @@ h3 {
 body {
   background-color: #8fbaf3; }
 
-.gridAreas {
+.gridAreass {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 70% 30%;
@@ -30,7 +30,7 @@ body {
 
 .borderAndPadding {
   border: solid 1px black;
-  padding: 10px; }
+  padding: 5px; }
 
 /*----------Estilos para HEADER----------*/
 header {
@@ -119,7 +119,7 @@ ul li a:hover {
 section {
   grid-area: section;
   background-color: #0f3057;
-  margin: 10px; }
+  margin: 0px; }
 
 .section__article--background {
   background-color: #8fbaf3; }
@@ -128,10 +128,10 @@ section {
   border: solid 3px black; }
 
 .section__article--padding {
-  padding: 15px; }
+  padding: 5px; }
 
 .section__article--margin {
-  margin: 15px; }
+  margin: 0px; }
 
 .section__article--interlineado {
   line-height: 2; }
@@ -172,8 +172,8 @@ aside {
   background-color: #0f3057;
   color: #f5f5f5;
   border: solid 3px black;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 0px;
   font-family: "Poppins", sans-serif; }
 
 aside h2 {
@@ -200,49 +200,6 @@ footer div {
 .footerNav {
   display: block;
   padding: .5rem 1rem; }
-
-/*----------Estilos otros----------*/
-.icon-40px {
-  font-size: 40px;
-  height: 80px;
-  width: 200px;
-  background-color: #00587a;
-  margin: 10px; }
-
-.icon-60px {
-  font-size: 60px;
-  height: 120px;
-  width: 300px;
-  background-color: #00587a;
-  margin: 10px; }
-
-.icon-80px {
-  font-size: 80px;
-  height: 160px;
-  width: 400px;
-  background-color: #00587a;
-  margin: 10px; }
-
-.swingHorizontal {
-  color: #1b202d; }
-
-.swingHorizontal:hover {
-  animation: swingHorizontal 1s ease;
-  animation-iteration-count: 1; }
-
-@keyframes swingHorizontal {
-  15% {
-    transform: translateX(5px); }
-  30% {
-    transform: translateX(-5px); }
-  50% {
-    transform: translateX(3px); }
-  65% {
-    transform: translateX(-3px); }
-  80% {
-    transform: translateX(2px); }
-  100% {
-    transform: translateX(0); } }
 
 /*----------Pagina FSD----------*/
 .fsd {
@@ -303,8 +260,9 @@ footer div {
   width: 50%;
   padding: 10px; }
 
-.programadoresTitulo {
-  color: white; }
+.tituloBlanco {
+  color: white;
+  margin: 20px; }
 
 .redondear {
   border-radius: 50%; }
@@ -331,7 +289,7 @@ footer div {
 /*----------Pagina Products----------*/
 .container1 {
   position: relative;
-  width: 50%; }
+  width: 100%; }
 
 .image {
   display: block;
@@ -355,7 +313,7 @@ footer div {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 70px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -363,5 +321,9 @@ footer div {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center; }
+
+.linkCompra {
+  text-decoration: none;
+  font-family: "Anton", sans-serif; }
 
 /*----------Pagina Contacto----------*/
