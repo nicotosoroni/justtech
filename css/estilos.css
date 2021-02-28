@@ -17,10 +17,6 @@ h2 {
 h3 {
   font-size: 1.17em; }
 
-p,
-i {
-  color: #033860; }
-
 body {
   background-color: #8fbaf3; }
 
@@ -280,18 +276,57 @@ footer div {
     .programadores div p {
       color: white; }
 
+.flex {
+  display: flex;
+  justify-content: space-around; }
+
+.flexCol {
+  flex-direction: column; }
+
+.flexRow {
+  flex-direction: row; }
+
+.flexGrow1 {
+  flex-grow: 1;
+  padding: 10px; }
+
+.flexGrow3 {
+  flex-grow: 3; }
+
+.textCenter {
+  text-align: center; }
+
+.quotes {
+  background-image: linear-gradient(red, yellow);
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px; }
+
 .programadoresTitulo {
   color: white; }
 
 .redondear {
   border-radius: 50%; }
 
-.text2 p {
-  color: white;
+.text2 {
+  color: black;
   font-size: 20px;
   top: 50%;
   left: 50%;
   text-align: center; }
+
+.white {
+  color: white;
+  margin-top: 10px; }
+
+.boxShadow {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  margin: auto;
+  width: 50%;
+  background-color: #FFFFFF; }
 
 /*----------Pagina Products----------*/
 .container1 {
