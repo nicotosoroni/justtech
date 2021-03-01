@@ -70,17 +70,26 @@
 								<div class="modal-dialog">
 								<div class="modal-content">
 									<div class="modal-header">
-									<h5 class="modal-title">Modal title</h5>
+									<h5 class="modal-title">Contacto Google</h5>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 										<span aria-hidden="true">&times;</span>
 									</button>
 									</div>
 									<div class="modal-body">
-									<p>Modal body text goes here.</p>
+										<div class="flex spaceAround blue">
+											<div><img src="../images/yo.png" class="img_size3" alt=""></div>
+											<div>
+												<ul>
+													<li class="h3">Nicolas Tosoroni</li>
+													<li><br></li>
+													<li>E-mail:</li>
+													<li>nicolastosoroni@gmail.com</li>
+												</ul>
+											</div>
+										</div>
 									</div>
 									<div class="modal-footer">
 									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Save changes</button>
 									</div>
 								</div>
 								</div>
@@ -241,27 +250,73 @@
 
 	</section>
 
-	<footer class="borderAndPadding">
-		<div>
-			<ul>
-				<li>
-				<a class="footerNav" href="../index.html">Home</a>
-				</li>
-				<li>
-				<a class="footerNav" href="fsd.html">Full Stack Developer</a>
-				</li>
-				<li>
-					<a class="footerNav" href="programming.html">Programming</a>
-				</li>
-				<li>
-					<a class="footerNav" href="products.html">Products</a>
-				</li>
-				<li>
-					<a class="footerNav" href="contact.html">Contact</a>
-				</li>
-			</ul>
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-md-4 col-sm-12 centradoVertical">
+				<p class="white h3">Justtech es un blog donde econtrarás todo tipo de noticias relacionadas con lo último de las TI, información sobre la carrera Full Stack Developer, programación y productos para armar el mejor setup.</p>
+			</div>
+			<div class="col-12 col-md-4 col-sm-12 spaceAround centradoVertical">
+				<ul>
+					<li>
+					<a class="footerNav" href="../index.html">Home</a>
+					</li>
+					<li>
+					<a class="footerNav" href="fsd.html">Full Stack Developer</a>
+					</li>
+					<li>
+						<a class="footerNav" href="programming.html">Programming</a>
+					</li>
+					<li>
+						<a class="footerNav" href="products.html">Products</a>
+					</li>
+					<li>
+						<a class="footerNav" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-12 col-md-4 col-sm-12 d-flex ms-auto spaceAround footerMargin">
+				<ul class="me-auto mb-2 mb-lg-0">	
+					<li><a href="https://twitter.com/NicoTosoroni" class="fa fa-twitter" target="_blank"></a></li>
+					<li><a href="https://www.linkedin.com/in/nicolas-tosoroni-798708131/" class="fa fa-linkedin" target="_blank"></a></li>
+					<li><button type="button" class="fa fa-google btn btn-primary" data-toggle="modal" data-target="#cuentagoogle">
+					</button>
+					</li>
+						<div class="modal" tabindex="-1" id=cuentagoogle>
+							<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title">Contacto Google</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+									<div class="flex spaceAround blue">
+										<div><img src="images/yo.png" class="img_size3" alt=""></div>
+										<div>
+											<ul>
+												<li class="h3">Nicolas Tosoroni</li>
+												<li><br></li>
+												<li>E-mail:</li>
+												<li>nicolastosoroni@gmail.com</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+							</div>
+						</div>
+					<li><a href="https://www.facebook.com/profile.php?id=706198673" class="fa fa-facebook" target="_blank"></a></li>
+					<li><a href="https://www.instagram.com/nicotosoroni/" class="fa fa-instagram" target="_blank"></a></li>
+				</ul>
+			</div>
 		</div>
-
+		<div class="row spaceAround centradoVertical footerMargin">
+			<p class="white">Copyright ©2021 Todos los derechechos reservados por: <b>Nicolas Tosoroni</b></p>
+		</div>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

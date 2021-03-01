@@ -190,11 +190,18 @@ section a {
   text-decoration: none;
   color: #0f3057;
 }
+
 .img_size {
   width: 100%;
 }
+
 .img_size2 {
   width: 50%;
+}
+
+.img_size3 {
+  width: 80%;
+  height: auto;
 }
 
 .articulos {
@@ -212,6 +219,10 @@ article {
 
 .accordion-body {
   background-color: $azul02;
+}
+
+.blue {
+  color: $azul05;
 }
 
 /*----------Estilos para ASIDE----------*/
@@ -254,15 +265,14 @@ footer {
   background-color: $azul21;
 }
 
-footer{
-  div{
-    width: 50%;
-  }
-}
-
 .footerNav {
   display: block;
   padding: .5rem 1rem;
+  text-align: center;
+}
+
+.footerMargin {
+  margin: 25px 0px 15px 0px;
 }
 
 
@@ -302,11 +312,7 @@ footer{
 
 .flexStart{
   justify-content: flex-start;
-  // align-content: flex-start;
 }
-
-
-// ---------------------
 
 
 .cajapadreA {
@@ -350,11 +356,6 @@ footer{
 }
 
 
-//---------------------
-
-
-
-
 /*----------Pagina Programming----------*/
 
 .btn-link{
@@ -376,6 +377,10 @@ footer{
 
 .spaceAround{
   justify-content: space-around;
+}
+
+.center{
+  justify-content: center;
 }
 
 .flexCol {
@@ -486,3 +491,15 @@ footer{
 
 /*----------Pagina Contacto----------*/
 
+.formPadding {
+  margin: 20px;
+}
+
+.formMargin {
+  padding: 10px;
+}
+
+.formColor{
+  background: #125688;
+  color: white;
+}

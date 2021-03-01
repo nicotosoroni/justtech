@@ -152,6 +152,10 @@ section a {
 .img_size2 {
   width: 50%; }
 
+.img_size3 {
+  width: 80%;
+  height: auto; }
+
 .articulos {
   font-family: "Poppins", sans-serif; }
 
@@ -165,6 +169,9 @@ article {
 
 .accordion-body {
   background-color: #e7e7de; }
+
+.blue {
+  color: #0f3057; }
 
 /*----------Estilos para ASIDE----------*/
 aside {
@@ -194,12 +201,13 @@ footer {
   margin: 10px;
   background-color: #06224a; }
 
-footer div {
-  width: 50%; }
-
 .footerNav {
   display: block;
-  padding: .5rem 1rem; }
+  padding: .5rem 1rem;
+  text-align: center; }
+
+.footerMargin {
+  margin: 25px 0px 15px 0px; }
 
 /*----------Pagina FSD----------*/
 .fsd {
@@ -278,6 +286,9 @@ footer div {
 
 .spaceAround {
   justify-content: space-around; }
+
+.center {
+  justify-content: center; }
 
 .flexCol {
   flex-direction: column; }
@@ -365,3 +376,12 @@ footer div {
   font-family: "Anton", sans-serif; }
 
 /*----------Pagina Contacto----------*/
+.formPadding {
+  margin: 20px; }
+
+.formMargin {
+  padding: 10px; }
+
+.formColor {
+  background: #125688;
+  color: white; }
