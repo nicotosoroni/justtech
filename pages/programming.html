@@ -26,9 +26,9 @@
 </head>
 <body>
 	<header>
-		<div class="centradoVertical">
+		<div class="centrado-vertical">
 			<div class="logo">
-				<img src="../images/icon.png" height="100">
+				<img src="../images/icon.png" height="100" alt="Logo del blog">
 			</div>
 			<div class="logo">
 				<h1>JustTech</h1>
@@ -63,38 +63,39 @@
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">	
 						
 						<li><a href="https://twitter.com/NicoTosoroni" class="fa fa-twitter" target="_blank"></a></li>
-						<li><a href="https://www.linkedin.com/in/nicolas-tosoroni-798708131/" class="fa fa-linkedin" target="_blank"></a></li>
+						<li><a href="https://www.linkedin.com/in/nicolas-tosoroni/" class="fa fa-linkedin" target="_blank"></a></li>
 						<li><button type="button" class="fa fa-google btn btn-primary" data-toggle="modal" data-target="#cuentagoogle">
 						</button>
 						</li>
-							<div class="modal" tabindex="-1" id=cuentagoogle>
-								<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-									<h5 class="modal-title">Contacto Google</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-									</div>
-									<div class="modal-body">
-										<div class="flex spaceAround blue">
-											<div><img src="../images/yo.png" class="img_size3" alt=""></div>
-											<div>
-												<ul>
-													<li class="h3">Nicolas Tosoroni</li>
-													<li><br></li>
-													<li>E-mail:</li>
-													<li>nicolastosoroni@gmail.com</li>
-												</ul>
-											</div>
+						<!-- Modal para tarjeta contacto Google -->
+						<div class="modal" tabindex="-1" id=cuentagoogle>
+							<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title">Contacto Google</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+									<div class="flex spaceAround blue">
+										<div><img src="../images/yo.png" class="img_size3" alt="Foto de perfil del creador del blog"></div>
+										<div>
+											<ul>
+												<li class="h3">Nicolas Tosoroni</li>
+												<li><br></li>
+												<li>E-mail:</li>
+												<li>nicolastosoroni@gmail.com</li>
+											</ul>
 										</div>
 									</div>
-									<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-									</div>
 								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 								</div>
 							</div>
+							</div>
+						</div>
 
 						<li><a href="https://www.facebook.com/profile.php?id=706198673" class="fa fa-facebook" target="_blank"></a></li>
 						<li><a href="https://www.instagram.com/nicotosoroni/" class="fa fa-instagram" target="_blank"></a></li>
@@ -110,30 +111,30 @@
 		</div>
 		<div class="flex spaceAround flexCol text2 container-fluid margintopbottom">
 			<div class="row margintopbottom">
-				<div class="col-12 col-md-3 col-sm-12">
-					<img class="redondear" src="../images/steve.png" width="200px" alt="">
+				<div class="col-12 col-md-3 col-sm-12 margintopbottom">
+					<img class="redondear" src="../images/steve.png" width="200px" alt="Steve Jobs">
 				</div>
 				<div class="textCenter boxShadow col-8 col-md-8 col-sm-8">
-					<p>"Everybody should learn to program a computer, because it teaches you how to think"</p>
-					<p><strong>Steve Jobs</strong></p>
+					<p class="anton">"Everybody should learn to program a computer, because it teaches you how to think"</p>
+					<p class="anton"><strong>Steve Jobs</strong></p>
 				</div>	
 			</div>
 			<div class="row margintopbottom">
-				<div class="col-12 col-md-3 col-sm-12">
-					<img class="redondear" src="../images/bill.png" width="200px" alt="">
+				<div class="col-12 col-md-3 col-sm-12 margintopbottom">
+					<img class="redondear" src="../images/bill.png" width="200px" alt="Bill Gates">
 				</div>
 				<div class="textCenter boxShadow col-8 col-md-8 col-sm-8">
-					<p>"Learnign to write programs streach your mind, and helps you think better"</p>
-					<p><strong>Bill Gates</strong></p>
+					<p class="anton">"Learnign to write programs streach your mind, and helps you think better"</p>
+					<p class="anton"><strong>Bill Gates</strong></p>
 				</div>
 			</div>
 			<div class="row margintopbottom">
-				<div class="col-12 col-md-3 col-sm-12">
-					<img class="redondear" src="../images/elon.png" width="200px" alt="">
+				<div class="col-12 col-md-3 col-sm-12 margintopbottom">
+					<img class="redondear" src="../images/elon.png" width="200px" alt="Elon Musk">
 				</div>
 				<div class="textCenter boxShadow col-8 col-md-8 col-sm-8">
-					<p>"I taught myself how to program computers when I was a kid, bought my first computer when I was 10, and sold my first commercial program when I was 12."</p>
-					<p><strong>Elon Musk</strong></p>
+					<p class="anton">"I taught myself how to program computers when I was a kid, bought my first computer when I was 10, and sold my first commercial program when I was 12."</p>
+					<p class="anton"><strong>Elon Musk</strong></p>
 				</div>
 			</div>
 		</div>
@@ -142,16 +143,16 @@
 		</div>
 		<div class="flex spaceAround flexRow section__article--padding text2">
 			<div>
-				<img class="redondear" src="../images/gaben.png" width="100px" alt="">
+				<img class="redondear" src="../images/gaben.png" width="100px" alt="Gabe Newell">
 				<p class="textCenter section__article--padding white">GABEN <br>NEWELL</p>
 			</div>
 			<div>
-				<img class="redondear" src="../images/mark.png" width="100px" alt="">
+				<img class="redondear" src="../images/mark.png" width="100px" alt="Mark Zuckerberg">
 				<p class="textCenter section__article--padding white">MARK <br>
 					ZUCKERBERG</p>
 			</div>
 			<div>
-				<img class="redondear" src="../images/jeff.png" width="100px" alt="">
+				<img class="redondear" src="../images/jeff.png" width="100px" alt="Jeff Bezos">
 				<p class="textCenter section__article--padding white">JEFF <br>BEZOS</p>
 			</div>		
 		</div>
@@ -165,7 +166,7 @@
 			  <div class="card-header" id="headingOne">
 				<h2 class="mb-0">
 				  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					Data Scientist
+					<strong class="word-letter-spacing">Data Scientist</strong>
 				  </button>
 				</h2>
 			  </div>
@@ -173,7 +174,7 @@
 			  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 				<div class="card-body flex spaceAround flexRow">
 					<div>	
-						<img src="../images/data-scientist.png" width="100px" alt="">
+						<img src="../images/data-scientist.png" width="100px" alt="Caricatura de Data Scientist">
 					</div>
 					<div>
 						<p class="tituloBlanco">El <strong>Data Science</strong> es un campo interdisciplinario que involucra métodos científicos, procesos y sistemas para extraer conocimiento o un mejor entendimiento de datos en sus diferentes formas, ya sea estructurados o no estructurados,​ lo cual es una continuación de algunos campos de análisis de datos como la estadística, la minería de datos, el aprendizaje automático, y la analítica predictiva.</p>
@@ -185,14 +186,14 @@
 			  <div class="card-header" id="headingTwo">
 				<h2 class="mb-0">
 				  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					Software Engineer
+					<strong class="word-letter-spacing">Software Engineer</strong>
 				  </button>
 				</h2>
 			  </div>
 			  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 				<div class="card-body flex spaceAround flexRow">
 					<div>
-						<img src="../images/engineer.png" width="100px" alt="">
+						<img src="../images/engineer.png" width="100px" alt="Caricatura de Ingeniero de Software">
 					</div>
 						<div>
 						<p class="tituloBlanco">Un <strong>Ingeniero de Software</strong> es un profesional que se encarga de la creación de software de calidad, aplicando conocimiento científico y estadístico. El trabajo del Ingeniero de Software consiste en analizar, diseñar, programar, probar y mantener sistemas informáticos y de software con el propósito de resolver problemas para los usuarios.</p>
@@ -204,14 +205,14 @@
 			  <div class="card-header" id="headingThree">
 				<h2 class="mb-0">
 				  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					Full Stack Developer
+				<strong class="word-letter-spacing">Full Stack Developer</strong>
 				  </button>
 				</h2>
 			  </div>
 			  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 				<div class="card-body flex spaceAround flexRow">
 					<div>
-						<img src="../images/web-development.png" width="100px" alt="">
+						<img src="../images/web-development.png" width="100px" alt="Caricatura de Desarrollador Web">
 					</div>
 					<div>
 						<p class="tituloBlanco">Un <strong>Desarrollador Full Stack</strong> es un programador con un perfil técnico muy completo. Sabe manejarse tanto en el back end como en el front end. Conoce los diferentes sistemas operativos y los componentes que hay entre el back y el front end.</p>
@@ -228,22 +229,22 @@
 
 
 
-		  <ul class="nav nav-tabs" id="myTab" role="tablist">
+		  <ul class="nav nav-tabs " id="myTab" role="tablist">
 			<li class="nav-item" role="presentation">
-			  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#java" role="tab" aria-controls="home" aria-selected="true">JAVA</a>
+			  <a class="nav-link active nav-link2" id="home-tab" data-toggle="tab" href="#java" role="tab" aria-controls="home" aria-selected="true">JAVA</a>
 			</li>
 			<li class="nav-item" role="presentation">
-			  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#javascript" role="tab" aria-controls="profile" aria-selected="false">JAVASCRIPT</a>
+			  <a class="nav-link nav-link2" id="profile-tab" data-toggle="tab" href="#javascript" role="tab" aria-controls="profile" aria-selected="false">JAVASCRIPT</a>
 			</li>
 			<li class="nav-item" role="presentation">
-			  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#python" role="tab" aria-controls="contact" aria-selected="false">PYTHON</a>
+			  <a class="nav-link nav-link2" id="contact-tab" data-toggle="tab" href="#python" role="tab" aria-controls="contact" aria-selected="false">PYTHON</a>
 			</li>
 		  </ul>
 		  <div class="tab-content" id="myTabContent">
 			<div class="tab-pane fade show active" id="java" role="tabpanel" aria-labelledby="home-tab">
 				<div class="flex spaceAround flexRow">
 					<div>	
-						<img src="../images/java.png" width="100px" alt="">
+						<img src="../images/java.png" width="100px" alt="Logo de Java">
 					</div>
 					<div>
 						<h2 class="tituloBlanco">Java</h2>
@@ -258,7 +259,7 @@
 			<div class="tab-pane fade" id="javascript" role="tabpanel" aria-labelledby="profile-tab">
 				<div class="flex spaceAround flexRow">
 					<div>	
-						<img src="../images/javascript.png" width="100px" alt="">
+						<img src="../images/javascript.png" width="100px" alt="Logo de Javascript">
 					</div>
 					<div>
 						<h2 class="tituloBlanco">Javascript</h2>
@@ -274,7 +275,7 @@
 			<div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="contact-tab">
 				<div class="flex flexRow spaceAround">
 					<div>	
-						<img src="../images/python.png" width="100px" alt="">
+						<img src="../images/python.png" width="100px" alt="Logo de Python">
 					</div>
 					<div>
 						<h2 class="tituloBlanco">Python</h2>
@@ -290,10 +291,10 @@
 
 	<footer class="container-fluid">
 		<div class="row">
-			<div class="col-12 col-md-4 col-sm-12 centradoVertical">
-				<p class="white h3">Justtech es un blog donde econtrarás todo tipo de noticias relacionadas con lo último de las TI, información sobre la carrera Full Stack Developer, programación y productos para armar el mejor setup.</p>
+			<div class="col-12 col-md-4 col-sm-12 centrado-vertical">
+				<p class="white h4">Justtech es un blog donde econtrarás todo tipo de noticias relacionadas con lo último de las TI, información sobre la carrera Full Stack Developer, programación y productos para armar el mejor setup.</p>
 			</div>
-			<div class="col-12 col-md-4 col-sm-12 spaceAround centradoVertical">
+			<div class="col-12 col-md-4 col-sm-12 spaceAround centrado-vertical">
 				<ul>
 					<li>
 					<a class="footerNav" href="../index.html">Home</a>
@@ -330,7 +331,7 @@
 								</div>
 								<div class="modal-body">
 									<div class="flex spaceAround blue">
-										<div><img src="images/yo.png" class="img_size3" alt=""></div>
+										<div><img src="images/yo.png" class="img_size3" alt="Foto de perfil del creador del blog"></div>
 										<div>
 											<ul>
 												<li class="h3">Nicolas Tosoroni</li>
@@ -352,7 +353,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row spaceAround centradoVertical footerMargin">
+		<div class="row spaceAround centrado-vertical footerMargin">
 			<p class="white">Copyright ©2021 Todos los derechechos reservados por: <b>Nicolas Tosoroni</b></p>
 		</div>
 	</footer>

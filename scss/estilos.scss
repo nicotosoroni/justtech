@@ -17,9 +17,16 @@ h1 {
 h2 {
   color: $azul05;
   font-size: 1.5em;
+  font-family: "Anton", sans-serif;
+  padding: 10px;
 }
 
 h3 {
+  font-size: 1.17em;
+  font-family: "Anton", sans-serif;
+}
+
+h4 {
   font-size: 1.17em;
 }
  
@@ -27,19 +34,7 @@ body {
   background-color: $azul23;
 }
 
-.gridAreass {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 70% 30%;
-  height: 120px;
-  grid-template-areas:
-    "header header"
-    "section aside"
-    "footer footer";
-  grid-gap: 5px 5px;
-}
-
-.borderAndPadding {
+.border-padding {
   border: solid 1px black;
   padding: 5px;
 }
@@ -47,13 +42,15 @@ body {
 /*----------Estilos para HEADER----------*/
 
 header {
-  grid-area: header;
-  font-family: "Anton", sans-serif;
-  align-items: center;
-  margin: 0px 10px 10px 10px;
+   font-family: "Anton", sans-serif;
+   margin: 0px 10px 10px 10px;
 }
 
-.centradoVertical {
+.anton {
+  font-family: "Anton", sans-serif;
+}
+
+.centrado-vertical {
   display: flex;
   align-items: center;
 }
@@ -210,7 +207,14 @@ section a {
 
 .espacioPalabra {
   word-spacing: 2px;
+  padding: 10px;
 }
+
+.word-letter-spacing {
+  word-spacing: 4px;
+  letter-spacing: 2px;
+}
+
 article {
   display: flex;
   flex-direction: column;
@@ -280,6 +284,7 @@ footer {
 
 .fsd {
   background-color: $azul01;
+  margin: 25px 0px 10px 0px;
 }
 
 .osrdenHorizontal {
@@ -292,10 +297,6 @@ footer {
 
 .ordenHorizontal img {
   width: 100px;
-}
-
-.fsd {
-  margin: 25px 0px 10px 0px;
 }
 
 .fsd {
@@ -353,6 +354,10 @@ footer {
 
 .contenedorA:hover {
 	top: -50px;
+}
+
+.fsdBackground {
+  background-color: $azul12;
 }
 
 
@@ -438,7 +443,12 @@ footer {
   box-shadow: 5px 10px;
   margin: auto;
   width: 50%;
-  background-color: #FFFFFF;
+  background-color: $azul01;
+}
+
+.nav-link2 {
+  background-color: $azul23;
+  color: #0f3057 !important;
 }
 
 /*----------Pagina Products----------*/
@@ -487,6 +497,11 @@ footer {
 .linkCompra {
   text-decoration: none;
   font-family: "Anton", sans-serif;
+}
+
+.row {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /*----------Pagina Contacto----------*/
